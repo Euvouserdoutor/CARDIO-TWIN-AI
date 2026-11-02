@@ -5,7 +5,7 @@
 [![TailwindCSS](https://img.shields.io/badge/Tailwind-4.0+-38B2AC.svg?logo=tailwind-css)](https://tailwindcss.com/)
 [![Express](https://img.shields.io/badge/Express-4.x-000000.svg?logo=express)](https://expressjs.com/)
 [![Google GenAI SDK](https://img.shields.io/badge/Google-GenAI_SDK-8E75B2.svg?logo=google)](https://ai.google.dev/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+<!-- License badge intentionally omitted until a LICENSE file is provided. -->
 
 **CardioTwin AI** is an experimental cardiovascular education and software research prototype. The repository explores explainable machine learning, interactive heart visualization, risk-map interfaces, and conversational AI using the Google GenAI SDK. The software and its simulated risk outputs have **not been independently validated for clinical decision-making**.
 
@@ -176,4 +176,4 @@ CardioTwin AI bridges the gap between raw clinical biomarkers and actionable car
 
 ## 📄 License
 
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+A license file is not currently included in this repository. Please contact the repository owner before assuming rights to reuse, modify, or redistribute the source code.
