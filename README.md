@@ -168,7 +168,7 @@ CardioTwin AI bridges the gap between raw clinical biomarkers and actionable car
 
 ## 🔒 Security & Privacy Practices
 
-* **Zero Client-Side API Key Exposure**: All calls to the Gemini API and external endpoints are proxied through the server-side Express backend. No secret credentials are sent to the client browser.
+* **Credential-handling requirement**: Secrets should remain on the server and must not be embedded in client bundles, browser-accessible configuration, or logs. The current client/server credential boundary has not been independently audited; review the implementation before deployment.
 * **Transient In-Memory Processing**: Patient biomarkers and clinical simulations are processed locally in state memory during the session without unconsented database storage.
 * **Clinical Disclaimer**: CardioTwin AI is an investigational decision-support software designed for educational, research, and advisory exploration. It does not replace professional medical judgment, in-person clinical diagnosis, or emergency healthcare services.
 
