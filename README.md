@@ -169,7 +169,7 @@ CardioTwin AI bridges the gap between raw clinical biomarkers and actionable car
 ## 🔒 Security & Privacy Practices
 
 * **Credential-handling requirement**: Secrets should remain on the server and must not be embedded in client bundles, browser-accessible configuration, or logs. The current client/server credential boundary has not been independently audited; review the implementation before deployment.
-* **Transient In-Memory Processing**: Patient biomarkers and clinical simulations are processed locally in state memory during the session without unconsented database storage.
+* **Data-handling verification required**: Patient inputs and generated outputs may pass through browser, server, and external AI components. Their storage, retention, and transmission behavior must be verified before real clinical data are entered.
 * **Clinical Disclaimer**: CardioTwin AI is an investigational decision-support software designed for educational, research, and advisory exploration. It does not replace professional medical judgment, in-person clinical diagnosis, or emergency healthcare services.
 
 ---
