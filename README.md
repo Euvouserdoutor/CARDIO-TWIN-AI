@@ -1,13 +1,13 @@
-# 🫀 CardioTwin AI — Precision Cardiovascular Risk Prediction & Digital Twin Engine
+# 🫀 CardioTwin AI — Cardiovascular Visualization & AI Research Prototype
 
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue.svg?logo=typescript)](https://www.typescriptlang.org/)
-[![React](https://img.shields.io/badge/React-18+-61DAFB.svg?logo=react)](https://reactjs.org/)
+[![React](https://img.shields.io/badge/React-19-61DAFB.svg?logo=react)](https://reactjs.org/)
 [![TailwindCSS](https://img.shields.io/badge/Tailwind-4.0+-38B2AC.svg?logo=tailwind-css)](https://tailwindcss.com/)
 [![Express](https://img.shields.io/badge/Express-4.x-000000.svg?logo=express)](https://expressjs.com/)
-[![Google Gemini API](https://img.shields.io/badge/Google_Gemini-3.5_Flash_&_3.1_Live-8E75B2.svg?logo=google)](https://ai.google.dev/)
+[![Google GenAI SDK](https://img.shields.io/badge/Google-GenAI_SDK-8E75B2.svg?logo=google)](https://ai.google.dev/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-**CardioTwin AI** is a clinical-grade cardiology decision-support and patient empowerment platform. It unifies explainable machine learning models (XGBoost classifiers, SHAP game-theoretic feature attributions, and K-Means cohort clustering), interactive myocardial anatomy digital twins, multidimensional cardiovascular disease comorbidity risk maps, and multimodal conversational AI (powered by Google Gemini 3.5 and low-latency Gemini 3.1 Live Audio WebSockets).
+**CardioTwin AI** is an experimental cardiovascular education and software research prototype. The repository explores explainable machine learning, interactive heart visualization, risk-map interfaces, and conversational AI using the Google GenAI SDK. The software and its simulated risk outputs have **not been independently validated for clinical decision-making**.
 
 ---
 
@@ -61,7 +61,7 @@ CardioTwin AI bridges the gap between raw clinical biomarkers and actionable car
          ┌─────────────────────────┴─────────────────────────┐
          ▼                                                   ▼
 ┌─────────────────────────────────┐         ┌─────────────────────────────────┐
-│     Client-Side UI (React 18)   │         │     Backend Server (Node.js)    │
+│     Client-Side UI (React 19)   │         │     Backend Server (Node.js)    │
 ├─────────────────────────────────┤         ├─────────────────────────────────┤
 │ • Vite + TypeScript             │         │ • Express 4.x REST API          │
 │ • Tailwind CSS 4.0              │◄───────►│ • WebSocket (`ws`) Audio Bridge │
@@ -73,7 +73,7 @@ CardioTwin AI bridges the gap between raw clinical biomarkers and actionable car
 
 | Layer | Technologies / Libraries |
 | :--- | :--- |
-| **Frontend Framework** | React 18, TypeScript, Vite |
+| **Frontend Framework** | React 19, TypeScript, Vite |
 | **Styling & Design** | Tailwind CSS 4.0, Plus Jakarta Sans, Outfit, JetBrains Mono |
 | **Animation & Motion** | `motion/react` |
 | **Iconography** | Lucide React |
@@ -130,8 +130,8 @@ CardioTwin AI bridges the gap between raw clinical biomarkers and actionable car
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/cardiotwin-ai.git
-   cd cardiotwin-ai
+   git clone https://github.com/Euvouserdoutor/CARDIO-TWIN-AI.git
+   cd CARDIO-TWIN-AI
    ```
 
 2. **Configure Environment Variables**:
