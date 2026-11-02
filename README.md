@@ -172,6 +172,13 @@ CardioTwin AI bridges the gap between raw clinical biomarkers and actionable car
 * **Data-handling verification required**: Patient inputs and generated outputs may pass through browser, server, and external AI components. Their storage, retention, and transmission behavior must be verified before real clinical data are entered.
 * **Clinical Disclaimer**: CardioTwin AI is an investigational decision-support software designed for educational, research, and advisory exploration. It does not replace professional medical judgment, in-person clinical diagnosis, or emergency healthcare services.
 
+### Verification checklist before using real-world information
+
+1. **Test with synthetic inputs** to verify behavior without introducing real patient records.
+2. **Inspect network requests and server logs** to understand which components process or transmit information.
+3. **Verify access controls and data retention** across the app and any connected services.
+4. **Document unresolved risks** and actual test evidence rather than implying that unverified guarantees are already in place.
+
 ---
 
 ## 📄 License
